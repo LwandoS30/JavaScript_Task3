@@ -202,6 +202,6 @@ let equalNum = 0
 do
 {
     equalNum = prompt("Please enter any number between 0 and 20")
-    randomNum = Math.Floor(Math.random() * 20) + 1;
+    randomNum = Math.Floor(Math.random() * 10) + 1;
 }
 while(equalNum == randomNum);
