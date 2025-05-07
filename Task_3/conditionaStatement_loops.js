@@ -48,21 +48,21 @@ console.log("===================================================")
 //Exercise 2
 let num = 10
 
-if(num % 2 == 0 && num % 3 == 0)
+if(num % 2 === 0 && num % 3 === 0)
 {
-    console.log("Divisible bt 2 and 3");
+    console.log("Divisible by 2 and 3");
 }
-else if(num % 2 == 0)
+else if(num % 2 === 0)
 {
     console.log("Divisible by 2");
 }
-else if(num % 3 == 0)
+else if(num % 3 === 0)
 {
     console.log("Divisible by 3");
 }
 else
 {
-    console.log("Not divisible by 2");
+    console.log("Not divisible by 2 and 3");
 }
 
 console.log("===================================================")
@@ -95,7 +95,7 @@ console.log("===================================================")
 //2) 
 for(var i = 1; i <= 20; i++)
 {
-    if( i % 2 == 0)
+    if( i % 2 === 0)
     {
         console.log(i);
     }
@@ -173,7 +173,7 @@ do
     console.log(k);
     k += 1;
 }
-while(k == 10);
+while(k === 10);
 
 //2)
 let g = 1
@@ -183,7 +183,7 @@ do
     g += 1;
     sumDo100 += g
 }
-while(k == 100);
+while(k === 100);
 console.log(sumDo100);
 
 //3)
@@ -204,4 +204,4 @@ do
     equalNum = prompt("Please enter any number between 0 and 20")
     randomNum = Math.Floor(Math.random() * 10) + 1;
 }
-while(equalNum == randomNum);
+while(equalNum === randomNum);
